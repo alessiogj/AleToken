@@ -1,6 +1,6 @@
 # Progetto Hardhat - AleToken
 
-Questo progetto rappresenta un'applicazione completa utilizzando Hardhat per sviluppare, testare e distribuire un token ERC-20 chiamato `AleToken`. Include il contratto intelligente, script di deployment, moduli Ignition e test dettagliati per garantire la funzionalità.
+Questo progetto rappresenta un'applicazione completa utilizzando Hardhat per sviluppare, testare e distribuire un token `ERC-20` chiamato `AleToken`. Include il contratto intelligente, script di deployment, moduli Ignition e test dettagliati per garantire la funzionalità.
 
 ## Cosa è incluso
 
