@@ -32,64 +32,6 @@ Questo progetto rappresenta un'applicazione completa utilizzando Hardhat per svi
 
 ---
 
-## Come iniziare
-
-Esegui i seguenti comandi per esplorare le funzionalità del progetto:
-
-### 1. Installa le dipendenze
-
-Assicurati di aver installato le dipendenze necessarie:
-
-```shell
-npm install
-```
-
-### 2. Visualizza la guida dei comandi
-
-```shell
-npx hardhat help
-```
-
-### 3. Esegui i test
-
-Esegui i test per verificare che tutto funzioni correttamente:
-
-```shell
-npx hardhat test
-```
-
-Puoi anche generare un report dettagliato sul consumo di gas durante i test:
-
-```shell
-REPORT_GAS=true npx hardhat test
-```
-
-### 4. Avvia una blockchain locale
-
-Per testare i contratti su una blockchain simulata:
-
-```shell
-npx hardhat node
-```
-
-### 5. Deployment del contratto
-
-#### Con uno script manuale
-
-Distribuisci il contratto sulla rete locale:
-
-```shell
-npx hardhat run scripts/deploy.js --network localhost
-```
-
-#### Con il modulo Ignition
-
-```shell
-npx hardhat ignition deploy ./ignition/modules/AleTokenModule.js --network localhost
-```
-
----
-
 ## Funzionalità del Contratto
 
 - **ERC-20 Standard**:
@@ -102,14 +44,6 @@ npx hardhat ignition deploy ./ignition/modules/AleTokenModule.js --network local
 - **Sicurezza**:
   - Solo il proprietario può creare nuovi token.
   - Controlli per saldi e indirizzi validi.
-
----
-
-## Requisiti
-
-- Node.js e npm installati sul tuo sistema.
-- Hardhat configurato nel progetto.
-- Configurazione di rete (es. localhost o Goerli).
 
 ---
 
